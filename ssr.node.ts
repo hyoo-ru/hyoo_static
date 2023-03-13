@@ -14,7 +14,7 @@ namespace $ {
 		}
 	}
 
-	export function $hyoo_static(port: number) {
+	export function $hyoo_static( port: number ) {
 		const puppeteer = $node[ 'puppeteer' ]
 
 		async function ssr( url: string ) {
@@ -28,7 +28,6 @@ namespace $ {
 
 		const express = $node[ "express" ]
 		const app = express()
-		const port = 3000
 		app.use( async function( req: any, res: any, next: any ) {
 			if( req.query._escaped_fragment_ ) {
 				const url = removeQueryParam( [ "_escaped_fragment_" ], req.url )

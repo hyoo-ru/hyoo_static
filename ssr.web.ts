@@ -1,5 +1,5 @@
 namespace $ {
 
-	export function $hyoo_static() {}
+	export function $hyoo_static(port : number) {}
 
 }
