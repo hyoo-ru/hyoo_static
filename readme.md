@@ -1,11 +1,9 @@
-# Template Repo
+# $hyoo_static
 
-Template repo to fast make new $hyoo apps.
+Simple prerender page with puppeteer.
 
-## After Make
+# How to use
 
-- [ ] [Rename app then update index.html and CNAME](./demo).
-- [ ] [Update GitHub Workflow](.github/workflows).
-- [ ] Update repo description and link to app at the GitHub.
-- [ ] [Add this repo to $hyoo namespace](https://github.com/hyoo-ru/mam_hyoo/blob/master/hyoo.meta.tree).
-- [ ] Rewrite this readme.
+**Include $mol_offline_install** by adding `include \/hyoo/static/install` into your `*.meta.tree`. Or *Run $mol_ssr* manually.
+
+Run node.js bundle.
