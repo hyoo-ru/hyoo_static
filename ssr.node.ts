@@ -14,7 +14,7 @@ namespace $ {
 		}
 	}
 
-	export function $mol_ssr(port: number) {
+	export function $hyoo_static(port: number) {
 		const puppeteer = $node[ 'puppeteer' ]
 
 		async function ssr( url: string ) {

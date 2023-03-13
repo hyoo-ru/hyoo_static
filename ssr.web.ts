@@ -1,5 +1,5 @@
 namespace $ {
 
-	export function $mol_ssr() {}
+	export function $hyoo_static() {}
 
 }
